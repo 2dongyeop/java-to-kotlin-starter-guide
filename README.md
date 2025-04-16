@@ -54,7 +54,17 @@
 
 <br/>
 
-### 1-3. Kotlin에서 Type을 다루는 방법
+### 1-3. [Kotlin에서 Type을 다루는 방법](src/main/java/io/dongvelop/lec03/Lec03Main.kt)
+
+- 코틀린의 변수는 초기값으로 타입을 추론하며, 타입 변환은 **명시적으로** 이루어진다.
+- 코틀린에서는 `is`, `!is`, `as`, `as?`를 이용해 타입을 확인하고 캐스팅한다.
+- 코틀린의 `Any`는 최상위 타입으로, Java의 Object와 동일하다.
+    - `equals()`, `toString()`, `hashcode()`를 동일하게 가진다.
+- 코틀린의 `Unit`은 Java의 void와 동일하다.
+- 코틀린의 `Nothing`은 정상적으로 끝나지 않는 함수의 반환을 의미한다.
+- ~~여러 줄바꿈에 걸친 문자열을 `""" """`를 이용해 작성 가능하다.~~
+    - **Java 17 이상 사용 시에도 동일하게 [Multi-line String](https://www.baeldung.com/java-multiline-string)을 사용할 수 있다.**
+- 문자열에서 특정 위치의 문자를 가져올 때는 배열처럼 가져올 수 있다.
 
 <br/>
 
