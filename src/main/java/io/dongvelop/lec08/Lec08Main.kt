@@ -1,5 +1,10 @@
 package io.dongvelop.lec08
 
+/**
+ * @author 이동엽(Lee Dongyeop)
+ * @date 2025. 04. 17
+ * @description Kotlin에서 함수를 다루는 방법
+ */
 fun main() {
     /*
      * default 파라미터 소개
@@ -38,12 +43,6 @@ fun repeat(str: String, num: Int = 3, useNewLine: Boolean = true) {
         }
     }
 }
-
-/**
- * @author 이동엽(Lee Dongyeop)
- * @date 2025. 04. 17
- * @description Kotlin에서 함수를 다루는 방법
- */
 
 // 가변인자 사용 방법 => Java에서 String... strings 와 동일
 fun printAll(vararg strings: String) {
