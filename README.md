@@ -82,7 +82,7 @@
     - 동일성(Identity) : 두 객체의 주소가 같은가?
 
       | 구분     | Java     | Kotlin |
-      |--------|----------|--------|
+            |--------|----------|--------|
       | 동등성 비교 | ==       | ===    |
       | 동일성 비교 | equals() | ==     |
 
@@ -99,7 +99,11 @@
 
 ## 2. Kotlin에서 코드를 제어하는 방법
 
-### 2-1. Kotlin에서 제어문을 다루는 방법
+### 2-1. [Kotlin에서 제어문을 다루는 방법](src/main/java/io/dongvelop/lec05/Lec05Main.kt)
+
+- `if`, `if-else`는 Java와 모두 동일하다.
+    - 단, 코틀린에서는 Expression으로 취급되어 return 문과 함께 사용할 수 있다.
+- **Java의 switch는 Kotlin에서 when으로 대체되었고, 이는 더 강력한 기능을 제공한다.**
 
 <br/>
 
