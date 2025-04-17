@@ -82,7 +82,7 @@
     - 동일성(Identity) : 두 객체의 주소가 같은가?
 
       | 구분     | Java     | Kotlin |
-                        |--------|----------|--------|
+                                                |--------|----------|--------|
       | 동등성 비교 | ==       | ===    |
       | 동일성 비교 | equals() | ==     |
 
@@ -116,7 +116,14 @@
 
 <br/>
 
-### 2-3. Kotlin에서 예외를 다루는 방법
+### 2-3. [Kotlin에서 예외를 다루는 방법](src/main/java/io/dongvelop/lec07/FilePrinter.kt)
+
+- try-catch 구문은 문법적으로 완전히 동일하다.
+    - Kotlin 에서는 Expression이기 때문에 return 문의 값으로 사용 가능하다.
+- **Kotlin에서는 CheckedException과 UnCheckedException를 구분하지 않는다.**
+- **Kotlin에서는 try-with-resource 구문이 존재하지 않는다.**
+    - 대신 코틀린의 언어적 특성을 활용하여 close()를 호출한다.
+    - e.g. `.use { ... }` 와 같은 인라인 함수
 
 <br/>
 
