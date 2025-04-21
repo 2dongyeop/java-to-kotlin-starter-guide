@@ -55,11 +55,11 @@ class Person(
         }
 
     // V2 : 함수로 생성
-    fun getUppercaseName(): String {
-        return this.name.uppercase()
-    }
+//    fun getUppercaseName(): String {
+//        return this.name.uppercase()
+//    }
 
     // V3 : 프로퍼티처럼 보이게 하기
-    val uppercaseName: String
-        get() = this.name.uppercase()
+//    val uppercaseName: String
+//        get() = this.name.uppercase()
 }

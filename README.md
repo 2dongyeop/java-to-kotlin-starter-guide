@@ -198,7 +198,13 @@
 
 <br/>
 
-### 3-4. Kotlin에서 object 키워드를 다루는 방법
+### [3-4. Kotlin에서 object 키워드를 다루는 방법](src/main/java/io/dongvelop/lec12/Person.kt)
+
+- Java의 static 변수와 함수를 만드려면, Kotlin에서는 `companion object`를 이용한다.
+- `companion object`도 객체이기 때문에 이름을 지정할 수 있고, 다른 타입을 상속받을 수 있다.
+    - `@JvmStatic`을 이용하면 호출하는 코드에서 Companion 객체의 이름을 생략하여 호출 가능하다.
+- Kotlin에서 싱글톤 클래스를 만들 때는 `object` 키워드를 이용한다.
+- Kotlin에서 익명 클래스를 만들 때는 `object : ${타입}`을 이용한다.
 
 <br/>
 
