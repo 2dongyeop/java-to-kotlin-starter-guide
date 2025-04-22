@@ -231,7 +231,15 @@
 
 ## 4. Kotlin에서의 FP
 
-### 4-1. Kotlin에서 배열과 컬렉션을 다루는 방법
+### 4-1. [Kotlin에서 배열과 컬렉션을 다루는 방법](src/main/java/io/dongvelop/lec15/Lec15Main.kt)
+
+- 배열의 사용법이 약간 다르다.
+    - `arrayOf()`, `array.withIndex()`
+- Kotlin에서는 컬렉션을 만들 때에도 불변/가변을 지정해야 한다.
+- **Java <-> Kotlin 코드를 섞어 컬렉션을 사용할 때에는 주의가 필요하다.**
+    - Java에서 Kotlin의 불변 컬렉션을 수정할 수 있고, non-nullable 컬렉션에 null을 넣을 수도 있다.
+    - Kotlin에서 Java 컬렉션을 사용할 때에는 플랫폼 타입을 주의해야 한다.
+        - : 코틀린에서는 `List<Int?>`, `List<Int>?`, `List<Int?>?` 이 모두 다른 의미
 
 <br/>
 
