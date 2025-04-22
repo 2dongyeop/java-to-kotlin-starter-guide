@@ -221,7 +221,11 @@
 
 <br/>
 
-### 3-6. Kotlin에서 다양한 클래스를 다루는 방법
+### 3-6. [Kotlin에서 다양한 클래스를 다루는 방법](src/main/java/io/dongvelop/lec14/PersonDto.kt)
+
+- `Data Class`를 이용하면 `equals`, `hashCode`, `toString`을 자동으로 만들어준다.
+- `Enum Class`는 Java의 Enum과 동일, `when` 키워드와 함께 사용하면 큰 장점을 갖는다.
+- `Sealed Class`는 하위 클래스를 제한하며, 동일한 패키지 내에 위치해야 한다.
 
 <br/>
 
