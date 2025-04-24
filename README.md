@@ -316,7 +316,14 @@
 
 ## 5. 추가적으로 알아두어야 할 코틀린 특성
 
-### 5-1. Kotlin의 이모저모
+### 5-1. [Kotlin의 이모저모](src/main/java/io/dongvelop/lec19/Lec19Main.kt)
+
+- 타입에 대한 별칭을 줄 수 있는 `typealias`라는 키워드가 존재한다.
+- Import 당시 이름을 바꿀 수 있는 `as import` 기능이 존재한다.
+- 변수를 한 번에 선언하여 값을 할당하는 `구조분해` 기능이 있으며, `componentN` 함수를 사용한다.
+- for, while 문과 달리 forEach에서는 break와 continue를 사용할 수 없다.
+    - 반복문에 `라벨이름@` 꼴의 라벨을 붙일 수 있다.
+- `takeIf`와 `takeUnless`를 활용해 코드 양을 줄이고 method chaining을 활용할 수 있다.
 
 <br/>
 
