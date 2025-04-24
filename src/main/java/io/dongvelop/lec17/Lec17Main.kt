@@ -52,14 +52,14 @@ fun filterFruit(
     filter: (Fruit) -> Boolean
 ): List<Fruit> {
 
-    val results = mutableListOf<Fruit>()
-
-    for (fruit in fruits) {
-        if (filter(fruit)) {
-            results.add(fruit)
-        }
-    }
-
-    return results
-//    return fruits.filter(filter)
+//    val results = mutableListOf<Fruit>()
+//
+//    for (fruit in fruits) {
+//        if (filter(fruit)) {
+//            results.add(fruit)
+//        }
+//    }
+//
+//    return results
+    return fruits.filter(filter)
 }

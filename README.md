@@ -305,7 +305,12 @@
 
 <br/>
 
-### 4-4. Kotlin에서 컬렉션을 함수형으로 다루는 방법
+### 4-4. [Kotlin에서 컬렉션을 함수형으로 다루는 방법](src/main/java/io/dongvelop/lec18/Lec18Main.kt)
+
+- filter : `filter`, `filterIndexed`, `all`, `none`, `any`
+- map : `map`, `mapIndexed`, `mapNotNull`
+- 공통 : `count`, `sortedBy`, `sortedByDescending`, `distinct`, `first`, `firstOrNull`, `last`, `lastOrNull`
+- 기타 : `groupBy`, `associateBy`, `flatMap`, `flatten`
 
 <br/>
 
