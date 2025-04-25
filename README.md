@@ -1,5 +1,9 @@
 # java-to-kotlin-starter-guide
 
+- Java 개발자를 위한 Kotlin 입문 가이드
+- 아래 내용은 [인프런 강의](https://www.inflearn.com/course/java-to-kotlin/dashboard)를 통해 학습한 내용을 개인적으로 정리한 내용입니다.
+- Java 문법과 비교하여 설명합니다. 따라서, Java에 대한 이해도가 필요합니다.
+
 ## 0. 목차
 
 * [1. Kotlin에서 변수와 타입, 연산자를 다루는 방법](#1-kotlin에서-변수와-타입-연산자를-다루는-방법)
