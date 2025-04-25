@@ -327,4 +327,19 @@
 
 <br/>
 
-### 5-2. Kotlin의 scope function
+### 5-2. [Kotlin의 scope function](src/main/java/io/dongvelop/lec20/Lec20Main.kt)
+
+- `Scope Function`이란?
+    - 람다를 사용해 일시적인 영역을 만들고, 코드를 더 간결하게 하거나, Method Chaining에 활용하는 함수를 의미한다.
+- Scope Function을 사용하면 사람에 따라 가독성을 다르게 느낄 수 있다.
+    - 따라서, 팀에서 컨벤션을 적절하게 정의해야 한다.
+- Scope Function 종류
+
+| 함수      | 호출 방식               | 람다 수신자 | 반환값   | 주로 쓰는 상황               |
+|---------|---------------------|--------|-------|------------------------|
+| `let`   | 확장 함수 (`obj.let`)   | `it`   | 람다 결과 | null-safe 처리, 값 가공     |
+| `run`   | 확장 함수 (`obj.run`)   | `this` | 람다 결과 | 객체 기반 계산 및 컨텍스트 구성     |
+| `also`  | 확장 함수 (`obj.also`)  | `it`   | 원본 객체 | 로깅, 디버깅, 체이닝 중간 사이드이펙트 |
+| `apply` | 확장 함수 (`obj.apply`) | `this` | 원본 객체 | 객체 초기화 및 설정            |
+| `with`  | 일반 함수 (`with(obj)`) | `this` | 람다 결과 | 특정 객체 컨텍스트에서 여러 작업 수행  |
+
