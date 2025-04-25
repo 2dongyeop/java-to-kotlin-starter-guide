@@ -3,6 +3,7 @@
 - Java 개발자를 위한 Kotlin 입문 가이드
 - 아래 내용은 [인프런 강의](https://www.inflearn.com/course/java-to-kotlin/dashboard)를 통해 학습한 내용을 개인적으로 정리한 내용입니다.
 - Java 문법과 비교하여 설명합니다. 따라서, Java에 대한 이해도가 필요합니다.
+- README에는 이론을 정리하였고, 해당 챕터의 제목을 클릭하여 실습 코드를 확인하실 수 있습니다.
 
 ## 0. 목차
 
@@ -132,7 +133,7 @@
 
 <br/>
 
-### [2-4. Kotlin에서 함수를 다루는 방법](src/main/java/io/dongvelop/lec08/Lec08Main.kt)
+### 2-4. [Kotlin에서 함수를 다루는 방법](src/main/java/io/dongvelop/lec08/Lec08Main.kt)
 
 - `default parameter` : 함수 파라미터에 기본 값을 설정할 수 있다.
     - Java의 오버로딩을 대체하며, 빌더의 장점을 누릴 수 있다.
@@ -156,7 +157,7 @@
 
 <br/>
 
-### [3-2. Kotlin에서 상속을 다루는 방법](src/main/java/io/dongvelop/lec10/Penguin.kt)
+### 3-2. [Kotlin에서 상속을 다루는 방법](src/main/java/io/dongvelop/lec10/Penguin.kt)
 
 - 상속 또는 구현할 때에 extends 키워드가 아닌 `:`를 사용한다.
 - 상위 클래스를 상속할 때, 반드시 생성자를 명시하여 호출해야 한다.
@@ -202,7 +203,7 @@
 
 <br/>
 
-### [3-4. Kotlin에서 object 키워드를 다루는 방법](src/main/java/io/dongvelop/lec12/Person.kt)
+### 3-4. [Kotlin에서 object 키워드를 다루는 방법](src/main/java/io/dongvelop/lec12/Person.kt)
 
 - Java의 `static` 변수와 함수를 만드려면, Kotlin에서는 `companion object`를 이용한다.
 - `companion object`도 객체이기 때문에 이름을 지정할 수 있고, 다른 타입을 상속받을 수 있다.
